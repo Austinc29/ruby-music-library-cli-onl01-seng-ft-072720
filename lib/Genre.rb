@@ -1,8 +1,8 @@
 class Genre 
-  attr_accessor :name 
+  attr_accessor :genre 
   
-  def initialize() 
-    @name = name 
+  def initialize(genre) 
+    @genre = genre 
   end 
   
 end 
